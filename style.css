@@ -194,11 +194,7 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
 }
-footer a {
-    width: auto;
-    font-size: 10px;
-    margin: 10px;
-}
+
 footer .clase-del-footer {
     display: flex;
     flex-wrap: wrap;
@@ -214,6 +210,7 @@ footer .clase-del-footer a {
     justify-content: center;
     color: #8e8e8e;
     font-size: 10px;
+    margin: 10px;
 }
 .Others {
     display: flex;

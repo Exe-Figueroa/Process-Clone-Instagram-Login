@@ -11,18 +11,18 @@ footer{
     border: 1px solid #dbdbdb;
     margin: 10px auto;
 }
-/* footer .clase-del-footer a {
+footer .clase-del-footer a {
     font-size: 1.2rem;
 
-} */
+}
 footer .clase-del-footer a:hover{
     text-decoration: underline;
     cursor: pointer;
 }
-/* .Others span{
+.Others span{
     font-size: 1.2rem;
 
-} */
+}
 .Others span:hover{
     text-decoration: underline;
     cursor: pointer;
