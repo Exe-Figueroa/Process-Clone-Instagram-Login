@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #fafafa;
+}
+main{
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    height: 80vh;
+}
+.first-square {
+    width: 340px;
+    margin:0 auto;
+    height: auto;
+    padding-bottom: 8px;
+    /* background-color: white; */
+}
+.first-square figure {
+    width: 60%;
+    display: flex;
+    margin: 40px auto ;
+    justify-content: center;
+}
+.first-square figure img {
+    width: 100%;
+    margin-top: 30px;
+}
+.first-square .div1{
+    display: flex;
+    /* background-color: aqua; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.first-square .div1 input {
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    width: 30rem;
+    height: 4rem;
+    margin-top: 6px;
+    padding-left: 8px;
+}
+.first-square .div1 .a1 {
+    width: 26rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background-color: #66b2f6;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+}
+.line-O-line {
+    display: flex;
+    justify-content: space-between;
+    width: 26rem;
+    margin-top: 10px;
+    height: 25px;
+    align-items: center;
+}
+.line-O-line span{
+    height: 1px;
+    width: 43%;
+    background-color: #dbdbdb;
+}
+.line-O-line p {
+    font-size: small;
+    color: #8e8e8e;
+}
+.alternative-options {
+    width: 100%;
+    /* background-color: #66b2f6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alternative-options span{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/124/124010.png");
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.alternative-options a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: #3a559f;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.session-with-facebook{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.session-with-facebook a{
+    width: 26rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3a559f;
+
+}
+.second-square {
+    width: 340px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    height: 63px;
+}
+.second-square p{
+    font-size: 1.6rem;
+    margin-right: 5px;
+    color: #262626;
+}
+.second-square a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #66b2f6;
+    
+}
+.third-square {
+    width: 340px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.third-square p{
+    font-size: 1.6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Appstore {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Download_on_the_App_Store_Badge_ESMX_RGB_blk.svg/1280px-Download_on_the_App_Store_Badge_ESMX_RGB_blk.svg.png");
+    width: 50%;
+    height: 50px;
+}
+.Playstore {
+    background-image: url("https://play.google.com/intl/es-419/badges/static/images/badges/es-419_badge_web_generic.png");
+    height: 64px;
+    width: 50%;
+}
+.third-square span{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+    margin: 10px 0 0 0;
+    display: flex;
+}
