@@ -125,7 +125,7 @@ main{
 }
 .second-square {
     width: 340px;
-    margin: 10px auto;
+    margin: 50px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,7 +175,53 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    
     margin: 10px 0 0 0;
     display: flex;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    /* background-color: #444; */
+    position: absolute;
+    bottom: 0;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer a {
+    width: auto;
+    font-size: 10px;
+    margin: 10px;
+}
+footer .clase-del-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+footer .clase-del-footer a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8e8e8e;
+    font-size: 10px;
+}
+.Others {
+    display: flex;
+    width: 30rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.Others span {
+    color: #8e8e8e;
+    transition: 0.1s;
+}
+.Others span:hover{
+    text-decoration: underline;
 }
