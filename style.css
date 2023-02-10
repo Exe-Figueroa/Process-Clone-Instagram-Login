@@ -49,8 +49,11 @@ main{
     margin-top: 6px;
     padding-left: 8px;
 }
+.first-square .div1 input:focus{
+    outline-color: #dbdbdb;
+}
 .first-square .div1 .a1 {
-    width: 26rem;
+    width: 30rem;
     height: 3.5rem;
     display: flex;
     justify-content: center;
@@ -221,7 +224,4 @@ footer .clase-del-footer a {
 .Others span {
     color: #8e8e8e;
     transition: 0.1s;
-}
-.Others span:hover{
-    text-decoration: underline;
 }

@@ -1,3 +1,29 @@
 footer{
     position: relative;
 }
+.first-square {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-top: 42px;
+}
+.second-square {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin: 10px auto;
+}
+/* footer .clase-del-footer a {
+    font-size: 1.2rem;
+
+} */
+footer .clase-del-footer a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* .Others span{
+    font-size: 1.2rem;
+
+} */
+.Others span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
