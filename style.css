@@ -9,6 +9,11 @@ html {
 body {
     background-color: #fafafa;
 }
+.div-img-phone-of-desktop{
+    width: 0px;
+    height: 0px;
+}
+
 main{
     width: 100%;
     display: inline;
@@ -193,6 +198,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 
 footer .clase-del-footer {

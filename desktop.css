@@ -1,0 +1,33 @@
+.div-img-phone-of-desktop{
+    width: 430px;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    
+}
+.image-phone{
+    margin-top: 10px;
+    background-image: url("./home_phones.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 430px;
+    height: 100%;
+    position: absolute;
+}
+main {
+    width: auto;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer{
+    position: relative;
+}
